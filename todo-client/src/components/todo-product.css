@@ -1,0 +1,170 @@
+
+.product-container {
+  padding: 60px 20px;
+  background: #fff;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin-top: 600px;
+}
+
+.product-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #2e7d32;
+  margin-bottom: 10px;
+  margin-top: 400px;
+}
+
+.product-intro {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.product-card {
+  background: #f9fafb;
+  border: 1px solid #e0e0e0;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  text-align: left;
+}
+
+.product-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.15);
+}
+
+.product-icon {
+  font-size: 2.5rem;
+  color: #2e7d32;
+  margin-bottom: 15px;
+}
+
+.product-card h3 {
+  font-size: 1.3rem;
+  color: #2e7d32;
+  margin-bottom: 10px;
+}
+
+.product-card p {
+  color: #555;
+  line-height: 1.5;
+}
+
+
+
+/* Existing product section styles remain the same... */
+
+.pricing-section {
+  margin-top: 80px;
+  padding: 60px 20px;
+  background: #f1f8f4;
+  text-align: center;
+  border-top: 2px solid #e0e0e0;
+}
+
+.pricing-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2e7d32;
+  margin-bottom: 10px;
+}
+
+.pricing-intro {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.pricing-card {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.08);
+  text-align: left;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.pricing-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.15);
+}
+
+.pricing-card h3 {
+  color: #2e7d32;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.price {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #1b5e20;
+  margin-bottom: 20px;
+}
+
+.features-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.features-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+.check-icon {
+  color: #2e7d32;
+  margin-right: 8px;
+}
+
+.plan-btn {
+  display: inline-block;
+  padding: 12px 20px;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+  transition: background 0.3s ease;
+}
+
+.free-btn {
+  background-color: #fff;
+  color: #2e7d32;
+  border: 2px solid #2e7d32;
+}
+
+.free-btn:hover {
+  background-color: #e8f5e9;
+}
+
+.premium-btn {
+  background-color: #2e7d32;
+  color: #fff;
+}
+
+.premium-btn:hover {
+  background-color: #1b5e20;
+}
