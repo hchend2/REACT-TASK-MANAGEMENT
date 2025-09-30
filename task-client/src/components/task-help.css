@@ -1,0 +1,139 @@
+.help-container {
+  font-family: Arial, sans-serif;
+  color: #333;
+  padding: 2rem;
+  background: #f9fdfb;
+  margin-top: 550px;
+}
+
+.help-hero {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: linear-gradient(to right, #2e7d32, #2e7d32);
+  color: white;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  margin-top: 400px;
+}
+
+.help-hero .highlight {
+  color: #f1c40f;
+}
+
+/* FAQ Section */
+.faq-section {
+  margin-bottom: 2rem;
+}
+
+.faq-section h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #2e7d32;
+}
+
+.faq-list {
+  max-width: 800px;
+  margin: auto;
+}
+
+.faq-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  background: white;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 3px 5px rgba(0,0,0,0.1);
+}
+
+.faq-icon {
+  color: #2e7d32;
+  font-size: 1.5rem;
+  margin-top: 0.2rem;
+}
+
+/* Contact Section */
+.contact-section {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.contact-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.contact-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  width: 240px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.contact-card:hover {
+  transform: translateY(-6px);
+}
+
+.contact-icon {
+  font-size: 2rem;
+  color: #2e7d32;
+  margin-bottom: 0.5rem;
+}
+
+/* Resources Section */
+.resources-section {
+  margin-bottom: 2rem;
+}
+
+.resources-section h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #2e7d32;
+}
+
+.resources-section ul {
+  list-style: none;
+  padding: 0;
+  max-width: 600px;
+  margin: auto;
+}
+
+.resources-section li {
+  display: flex;
+  align-items: center;
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.resource-icon {
+  color: #2e7d32;
+  margin-right: 0.5rem;
+}
+
+/* CTA */
+.help-cta {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.help-button {
+  background: #2e7d32;
+  color: white;
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  transition: background 0.3s;
+}
+
+.help-button:hover {
+  background: #2e7d32;
+}
