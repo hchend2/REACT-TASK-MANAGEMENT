@@ -1,0 +1,182 @@
+/*  */
+/* REACT-TASK-MANAGEMENT/task-client/src/components/task-dashboard.css */
+
+/* General layout */
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  /* margin-top: 300px; */
+  padding: 0;
+}
+
+/* Sidebar */
+/* .sidebar {
+  background-color: #2e7d32;
+  color: white;
+  min-height: 10vh;
+  width: 150%;
+  transition: width 0.3s ease-in-out;
+
+  
+} */
+.sidebar {
+  background-color: #2e7d32;
+  color: white;
+  min-height: 85vh;
+  width: 175px;
+  border-radius: 16px;
+  transition: width 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+   align-items: flex-start;
+  margin-top: 100px;
+  padding: 20px 10px;
+  position: fixed;
+  top: 0;
+  left: 10px;
+  /* right: 50px; */
+}
+
+.sidebar.collapsed {
+  width: 80px;
+}
+
+.sidebar .profile-pic {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;              /* 👈 makes it a circle */
+  border: 3px solid #f1c40f;       /* golden accent border */
+  object-fit: cover;               /* keep image proportional */
+  transition: all 0.3s ease;
+  margin: 0 auto;  /* keeps the circular image centered */
+  display: block;
+}
+
+.sidebar .profile-pic:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(241, 196, 15, 0.6);
+}
+
+.sidebar h3 {
+  color: #fff;
+  margin-top: 10px;
+  text-align: center; /* keeps only this text centered */
+}
+
+.sidebar-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;  /* ✅ aligns icons and text left */
+  gap: 12px;
+  width: 100%;                  /* ✅ full clickable width */
+  padding: 10px 12px;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s, padding-left 0.2s;
+}
+
+.sidebar-item:hover {
+  background-color: #256528;
+  padding-left: 16px;  /* subtle movement on hover */
+}
+
+
+.input {
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: 0.95rem;
+}
+
+.sidebar-item svg {
+  color: #f1c40f;
+}
+
+/* Logout button */
+.logout-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px;
+  margin-top: auto;
+  color: #f1c40f;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.logout-btn:hover {
+  color: #fff;
+}
+
+/* Main Content */
+main {
+  padding: 20px;
+}
+
+/* Card */
+.card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+}
+
+/* Card Headers */
+.card h2 {
+  color: #2e7d32;
+  font-size: 1.4rem;
+  margin-bottom: 5px;
+}
+
+.card p {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+/* Form elements */
+.card input,
+.card textarea {
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 8px;
+  font-size: 0.95rem;
+}
+
+.card input:focus,
+.card textarea:focus {
+  border-color: #2e7d32;
+  outline: none;
+  box-shadow: 0 0 4px rgba(46, 125, 50, 0.4);
+}
+
+/* Buttons */
+.card button {
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.1s;
+}
+
+.card button:hover {
+  background-color: #256528;
+}
+
+.card button:active {
+  transform: scale(0.98);
+}
