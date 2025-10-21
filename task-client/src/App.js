@@ -8,6 +8,7 @@ import TaskNavbar from "./components/task-navbar";
 import TaskFeature from "./components/task-feature";
 import TaskHelp from "./components/task-help";
 import TaskRegister from "./components/task-register";
+import TaskDashboard from "./components/task-dashboard";
 // import './App.css';
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
                 <Route path="/login" element={<TaskLogin />} />
                 <Route path="/register" element={<TaskRegister />} />
                 <Route path="/help" element={<TaskHelp />} />
+                <Route path="/task-dashboard" element={<TaskDashboard />} />
               </Routes>
             </div>
           </div>
